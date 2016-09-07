@@ -74,6 +74,12 @@ DeclareOperation( "Intrinsify",
         [ IsCapCategory, IsCapCategoryMorphism, IsCapCategoryIntrinsicObject, IsInt, IsCapCategoryIntrinsicObject, IsInt ] );
 
 #! @Description
+#!  Intrinsify a functor.
+#! @Arguments F, name
+DeclareOperation( "Intrinsify",
+        [ IsCapFunctor, IsString, IsCapCategory, IsCapCategory ] );
+
+#! @Description
 #!  Create an intrinsic category out of <A>C</A>.
 #! @Arguments C
 DeclareOperation( "IntrinsicCategory",

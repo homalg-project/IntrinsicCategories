@@ -602,6 +602,34 @@ InstallMethod( Intrinsify,
 end );
     
 ##
+InstallMethod( Intrinsify,
+        [ IsCapFunctor, IsString, IsCapCategory, IsCapCategory ],
+        
+  function( F, name, A, B )
+    local S, T, intF;
+    
+    S := AsCapCategory( Source( F ) );
+    T := AsCapCategory( Range( F ) );
+    
+    if not IsIdenticalObj( S, A!.UnderlyingCategory ) then
+        Error( "the source of the functor and the category underlying the intrinsic source do not coincide\n" );
+    elif not IsIdenticalObj( T, B!.UnderlyingCategory ) then
+        Error( "the targt of the functor and the category underlying the intrinsic target do not coincide\n" );
+    fi;
+    
+    intF := CapFunctor( name, A, B );
+    
+    AddObjectFunction( intF,
+            function( obj )
+              return Intrinsify( ApplyFunctor( F, ActiveCell( obj ) ) );
+            end
+            );
+    
+    return intF;
+    
+end );
+    
+##
 InstallMethod( IntrinsicCategory,
         [ IsCapCategory ],
         
@@ -609,6 +637,10 @@ InstallMethod( IntrinsicCategory,
     local name, IC, recnames, func, pos, create_func_bool,
           create_func_object0, create_func_object, create_func_morphism,
           create_func_universal_morphism, info, add;
+    
+    #if IsBound( C!.IntrinsicCategory ) then
+    #    return C!.IntrinsicCategory;
+    #fi;
     
     if HasName( C ) then
         name := Concatenation( "intrinsic_", Name( C ) );
