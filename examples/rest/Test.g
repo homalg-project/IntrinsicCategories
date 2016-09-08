@@ -27,25 +27,8 @@ F := Intrinsify( category, Source( phi ) );
 phi := Intrinsify( phi, F, 1, M, 1 );
 #! <an intrinsic morphism on active cell:
 #!  <A morphism in Category of left presentations of Q[x,y]>>
-Display( phi );
-#! 1,0,
-#! 0,1
-#! 
-#! A morphism in Category of left presentations of Q[x,y]
-m1 := MorphismFromZeroObject( M );
-#! <an intrinsic morphism on active cell: <A split mono morphism
-#!  in Category of left presentations of Q[x,y]>>
-m2 := MorphismIntoZeroObject( M );
-#! <an intrinsic morphism on active cell: <A split epi morphism
-#!  in Category of left presentations of Q[x,y]>>
-IsZero( M );
-#! true
-ActiveCell( m1 );
-#! <An iso morphism in Category of left presentations of Q[x,y]>
-ActiveCell( m2 );
-#! <An iso morphism in Category of left presentations of Q[x,y]>
-Display( phi );
-#! (an empty 2 x 0 matrix)
-#! 
-#! A split epimorphism in Category of left presentations of Q[x,y]
-#! @EndExample
+sm := FunctorStandardModuleLeft( R );
+#! Less generators for Category of left presentations of Q[x,y]
+SM := Intrinsify( sm, category );
+#! Intrinsic version of Less generators for
+#! Category of left presentations of Q[x,y]
