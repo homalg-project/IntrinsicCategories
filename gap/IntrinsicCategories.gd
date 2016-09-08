@@ -47,6 +47,7 @@ DeclareCategory( "IsCapCategoryIntrinsicMorphism",
 #! @Description
 #!  In the one argument version create an intrinsic cell out of the cell <A>c</A>.
 #!  If <A>c</A> is a morphism then its source and object are intrinsified.
+#! @Group Intrinsify
 #! @Arguments c
 DeclareOperation( "Intrinsify",
         [ IsCapCategoryCell ] );
@@ -67,17 +68,54 @@ DeclareOperation( "Intrinsify",
         [ IsCapCategoryMorphism, IsCapCategoryIntrinsicObject, IsInt, IsCapCategoryIntrinsicObject, IsInt ] );
 
 #! @Description
-#!  In the six argument version the intrinsified morphism <A>m</A> is subsequently added to the category <A>C</A>.
-#! @Arguments C, m, s, i, t, j
+#!  Intrinsify a functor ...
+#! @Arguments F, name, A, B
 #! @Group Intrinsify
 DeclareOperation( "Intrinsify",
-        [ IsCapCategory, IsCapCategoryMorphism, IsCapCategoryIntrinsicObject, IsInt, IsCapCategoryIntrinsicObject, IsInt ] );
+        [ IsCapFunctor, IsString, IsCapCategory, IsCapCategory ] );
 
 #! @Description
-#!  Intrinsify a functor.
-#! @Arguments F, name
+#!  Intrinsify a functor ...
+#! @Arguments F, A, B
+#! @Group Intrinsify
 DeclareOperation( "Intrinsify",
-        [ IsCapFunctor, IsString, IsCapCategory, IsCapCategory ] );
+        [ IsCapFunctor, IsCapCategory, IsCapCategory ] );
+
+#! @Description
+#!  Intrinsify an endofunctor ...
+#! @Arguments F, name, A
+#! @Group Intrinsify
+DeclareOperation( "Intrinsify",
+        [ IsCapFunctor, IsString, IsCapCategory ] );
+
+#! @Description
+#!  Intrinsify an endofunctor ...
+#! @Arguments F, A
+#! @Group Intrinsify
+DeclareOperation( "Intrinsify",
+        [ IsCapFunctor, IsCapCategory ] );
+
+#! @Description
+#!  Intrinsify a natural transformation
+#! @Arguments eta, name, A, B
+#! @Group Intrinsify
+DeclareOperation( "Intrinsify",
+        [ IsCapNaturalTransformation, IsString, IsCapFunctor, IsCapFunctor ] );
+
+#! @Description
+#!  Intrinsify a natural transformation
+#! @Arguments eta, A, B
+#! @Group Intrinsify
+DeclareOperation( "Intrinsify",
+        [ IsCapNaturalTransformation, IsCapFunctor, IsCapFunctor ] );
+
+#! @Description
+#!  Turn the range of the given natural transformation into the identity functor
+#!  and turn the given natural isomorphism into the identity natural transformation
+#! @Arguments eta
+#! @Group Intrinsify
+DeclareOperation( "TurnAutoequivalenceIntoIdentityFunctor",
+        [ IsCapNaturalTransformation ] );
 
 #! @Description
 #!  Create an intrinsic category out of <A>C</A>.
