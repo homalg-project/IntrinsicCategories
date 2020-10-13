@@ -1,7 +1,7 @@
 name: IntrinsicCategories
-version: "2020.10.01"
+version: "2020.10.03"
 license: "GPL-2.0-or-later"
-date: 2020-10-01
+date: 2020-10-03
 description: |
     Intrinsic categories for CAP
 
@@ -38,7 +38,7 @@ packageinfo: https://homalg-project.github.io/IntrinsicCategories/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2020.10.01/IntrinsicCategories-2020.10.01.tar.gz
+      url: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2020.10.03/IntrinsicCategories-2020.10.03.tar.gz
 
 abstract: |
 
@@ -51,7 +51,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>Bar20</span>]   <b class='BibAuthor'>Barakat, M.</b>,
      <i class='BibTitle'>IntrinsicCategories, Intrinsic categories for CAP,
-             Version 2020.10.01</i>
+             Version 2020.10.03</i>
      (<span class='BibYear'>2020</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/IntrinsicCategories">https://homalg-project.github.io/IntrinsicCategories</a></span>.
@@ -59,10 +59,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ IntrinsicCategories2020.10.01,
+    @misc{ IntrinsicCategories2020.10.03,
       author =           {Barakat, M.},
       title =            {{IntrinsicCategories},  Intrinsic  categories for CAP,
-                          {V}ersion 2020.10.01},
+                          {V}ersion 2020.10.03},
       month =            {Oct},
       year =             {2020},
       note =             {GAP package},
