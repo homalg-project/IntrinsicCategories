@@ -11,16 +11,18 @@ SetPackageInfo( rec(
 PackageName := "IntrinsicCategories",
 Subtitle := "Intrinsic categories for CAP",
 Version := Maximum( [
-                   "2020.10.03", ## Mohamed's version
+                   "2020.10-03", ## Mohamed's version
                    ## this line prevents merge conflicts
-                   "2015.10.06", ## Sebas' version
+                   "2015.10-06", ## Sebas' version
                    ## this line prevents merge conflicts
-                   "2020.08.01", ## Kamal's version
+                   "2020.08-01", ## Kamal's version
+                   ## this line prevents merge conflicts
+                   "2020.11-01", ## Fabian's version
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := ~.Version{[ 1 .. 10 ]},
-Date := Concatenation( ~.Version{[ 9, 10 ]}, "/", ~.Version{[ 6, 7 ]}, "/", ~.Version{[ 1 .. 4 ]} ),
+Date := "04/11/2020",
+Date := "04/11/2020",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -52,7 +54,7 @@ README_URL      := "https://homalg-project.github.io/IntrinsicCategories/README.
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/IntrinsicCategories/releases/download/v", ~.Version, "/IntrinsicCategories-", ~.Version ),
 # END URLS
 
-ArchiveFormats := ".tar.gz",
+ArchiveFormats := ".tar.gz .zip",
 
 ##  Status information. Currently the following cases are recognized:
 ##    "accepted"      for successfully refereed packages
