@@ -19,7 +19,7 @@
     [4X[28X of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27XF := Intrinsify( category, Source( phi ) );[127X[104X
     [4X[28X<an intrinsic object on active cell:[128X[104X
-    [4X[28X <An object in Category of left presentations of Q[x,y]>>[128X[104X
+    [4X[28X <A projective object in Category of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27Xphi := Intrinsify( phi, F, 1, M, 1 );[127X[104X
     [4X[28X<an intrinsic morphism on active cell:[128X[104X
     [4X[28X <A morphism in Category of left presentations of Q[x,y]>>[128X[104X
@@ -64,7 +64,7 @@
     [4X[28X of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27XF := Intrinsify( category, Source( phi ) );[127X[104X
     [4X[28X<an intrinsic object on active cell:[128X[104X
-    [4X[28X <An object in Category of left presentations of Q[x,y]>>[128X[104X
+    [4X[28X <A projective object in Category of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27Xphi := Intrinsify( phi, F, 1, M, 1 );[127X[104X
     [4X[28X<an intrinsic morphism on active cell:[128X[104X
     [4X[28X <A morphism in Category of left presentations of Q[x,y]>>[128X[104X
@@ -111,7 +111,7 @@
     [4X[28X of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27XF := Intrinsify( category, Source( phi ) );[127X[104X
     [4X[28X<an intrinsic object on active cell:[128X[104X
-    [4X[28X <An object in Category of left presentations of Q[x,y]>>[128X[104X
+    [4X[28X <A projective object in Category of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27Xphi := Intrinsify( phi, F, 1, M, 1 );[127X[104X
     [4X[28X<an intrinsic morphism on active cell:[128X[104X
     [4X[28X <A morphism in Category of left presentations of Q[x,y]>>[128X[104X
@@ -153,8 +153,8 @@
     [4X[25Xgap>[125X [27Xcategory := IntrinsicCategory( LeftPresentations( R ) );[127X[104X
     [4X[28Xintrinsic Category of left presentations of Q[x,y][128X[104X
     [4X[25Xgap>[125X [27XS := Intrinsify( category, FreeLeftPresentation( 1, R ) );[127X[104X
-    [4X[28X<an intrinsic object on active cell: <An object in Category[128X[104X
-    [4X[28X of left presentations of Q[x,y]>>[128X[104X
+    [4X[28X<an intrinsic object on active cell:[128X[104X
+    [4X[28X <A projective object in Category of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27Xobject_func := function( i ) return S; end;[127X[104X
     [4X[28Xfunction( i ) ... end[128X[104X
     [4X[25Xgap>[125X [27Xmorphism_func := function( i ) return IdentityMorphism( S ); end;[127X[104X
@@ -163,8 +163,8 @@
     [4X[28X<An object in Functors from integers into intrinsic Category[128X[104X
     [4X[28X of left presentations of Q[x,y]>[128X[104X
     [4X[25Xgap>[125X [27XS2 := Intrinsify( category, FreeLeftPresentation( 2, R ) );[127X[104X
-    [4X[28X<an intrinsic object on active cell: <An object in Category[128X[104X
-    [4X[28X of left presentations of Q[x,y]>>[128X[104X
+    [4X[28X<an intrinsic object on active cell:[128X[104X
+    [4X[28X <A projective object in Category of left presentations of Q[x,y]>>[128X[104X
     [4X[25Xgap>[125X [27XC1 := ZFunctorObjectFromMorphismList( [ InjectionOfCofactorOfDirectSum( [ S2, S ], 1 ) ], 2 );[127X[104X
     [4X[28X<An object in Functors from integers into intrinsic Category[128X[104X
     [4X[28X of left presentations of Q[x,y]>[128X[104X

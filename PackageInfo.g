@@ -11,7 +11,7 @@ SetPackageInfo( rec(
 PackageName := "IntrinsicCategories",
 Subtitle := "Intrinsic categories for CAP",
 Version := Maximum( [
-                   "2020.10-03", ## Mohamed's version
+                   "2021.02-01", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2015.10-06", ## Sebas' version
                    ## this line prevents merge conflicts
@@ -21,8 +21,8 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := "04/11/2020",
-Date := "04/11/2020",
+Date := "27/02/2021",
+Date := "27/02/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -48,7 +48,7 @@ SourceRepository := rec(
     URL := "https://github.com/homalg-project/IntrinsicCategories",
 ),
 IssueTrackerURL := Concatenation( ~.SourceRepository.URL, "/issues" ),
-PackageWWWHome  := "https://homalg-project.github.io/IntrinsicCategories",
+PackageWWWHome  := "https://homalg-project.github.io/pkg/IntrinsicCategories",
 PackageInfoURL  := "https://homalg-project.github.io/IntrinsicCategories/PackageInfo.g",
 README_URL      := "https://homalg-project.github.io/IntrinsicCategories/README.md",
 ArchiveURL      := Concatenation( "https://github.com/homalg-project/IntrinsicCategories/releases/download/v", ~.Version, "/IntrinsicCategories-", ~.Version ),
