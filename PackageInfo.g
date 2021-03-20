@@ -11,7 +11,7 @@ SetPackageInfo( rec(
 PackageName := "IntrinsicCategories",
 Subtitle := "Intrinsic categories for CAP",
 Version := Maximum( [
-                   "2021.03-01", ## Mohamed's version
+                   "2021.03-02", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2015.10-06", ## Sebas' version
                    ## this line prevents merge conflicts
@@ -21,8 +21,8 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := "03/03/2021",
-Date := "03/03/2021",
+Date := "20/03/2021",
+Date := "20/03/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
