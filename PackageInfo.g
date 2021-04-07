@@ -11,7 +11,7 @@ SetPackageInfo( rec(
 PackageName := "IntrinsicCategories",
 Subtitle := "Intrinsic categories for CAP",
 Version := Maximum( [
-                   "2021.03-03", ## Mohamed's version
+                   "2021.03-05", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2015.10-06", ## Sebas' version
                    ## this line prevents merge conflicts
@@ -21,8 +21,8 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := "21/03/2021",
-Date := "21/03/2021",
+Date := "07/04/2021",
+Date := "07/04/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -31,7 +31,7 @@ Persons := [
     IsMaintainer := true,
     FirstNames := "Mohamed",
     LastName := "Barakat",
-    WWWHome := "https://mohamed-barakat.github.io",
+    WWWHome := "https://mohamed-barakat.github.io/",
     Email := "mohamed.barakat@uni-siegen.de",
     PostalAddress := Concatenation(
                "Walter-Flex-Str. 3\n",
