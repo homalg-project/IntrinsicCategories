@@ -11,7 +11,7 @@ SetPackageInfo( rec(
 PackageName := "IntrinsicCategories",
 Subtitle := "Intrinsic categories for CAP",
 Version := Maximum( [
-                   "2021.05-01", ## Mohamed's version
+                   "2021.10-02", ## Mohamed's version
                    ## this line prevents merge conflicts
                    "2015.10-06", ## Sebas' version
                    ## this line prevents merge conflicts
@@ -21,8 +21,8 @@ Version := Maximum( [
                    ## this line prevents merge conflicts
                    ] ),
 
-Date := "15/05/2021",
-Date := "15/05/2021",
+Date := "15/10/2021",
+Date := "15/10/2021",
 License := "GPL-2.0-or-later",
 
 Persons := [
@@ -81,7 +81,7 @@ Dependencies := rec(
   GAP := ">= 4.9.1",
   NeededOtherPackages := [
                    [ "AutoDoc", ">= 2016.02.16" ],
-                   [ "CAP", ">= 2020.08.01" ],
+                   [ "CAP", ">= 2021.10-01" ],
                    [ "ToolsForHomalg", ">= 2015.09.23" ],
                    [ "CategoryConstructor", ">= 2020.05-01" ],
                    [ "GAPDoc", ">= 1.1" ]
