@@ -1,7 +1,7 @@
 name: IntrinsicCategories
-version: "2021.10-03"
+version: "2021.10-04"
 license: "GPL-2.0-or-later"
-date: 2021-10-15
+date: 2021-10-26
 description: |
     Intrinsic categories for CAP
 
@@ -38,11 +38,11 @@ packageinfo: https://homalg-project.github.io/IntrinsicCategories/PackageInfo.g
 
 downloads:
     - name: .tar.gz
-      url: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2021.10-03/IntrinsicCategories-2021.10-03.tar.gz
+      url: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2021.10-04/IntrinsicCategories-2021.10-04.tar.gz
     - name: .zip
-      url: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2021.10-03/IntrinsicCategories-2021.10-03.zip
+      url: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2021.10-04/IntrinsicCategories-2021.10-04.zip
 
-pdf: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2021.10-03/IntrinsicCategories-2021.10-03.pdf
+pdf: https://github.com/homalg-project/IntrinsicCategories/releases/download/v2021.10-04/IntrinsicCategories-2021.10-04.pdf
 
 abstract: |
 
@@ -55,7 +55,7 @@ citeas: |
     <p class='BibEntry'>
     [<span class='BibKey'>Bar21</span>]   <b class='BibAuthor'>Barakat, M.</b>,
      <i class='BibTitle'>IntrinsicCategories, Intrinsic categories for CAP,
-             Version 2021.10-03</i>
+             Version 2021.10-04</i>
      (<span class='BibYear'>2021</span>)<br />
     (<span class='BibNote'>GAP package</span>),
     <span class='BibHowpublished'><a href="https://homalg-project.github.io/pkg/IntrinsicCategories">https://homalg-project.github.io/pkg/IntrinsicCategories</a></span>.
@@ -63,10 +63,10 @@ citeas: |
     
 
 bibtex: |
-    @misc{ IntrinsicCategories2021.10-03,
+    @misc{ IntrinsicCategories2021.10-04,
       author =           {Barakat, M.},
       title =            {{IntrinsicCategories},  Intrinsic  categories for CAP,
-                          {V}ersion 2021.10-03},
+                          {V}ersion 2021.10-04},
       month =            {Oct},
       year =             {2021},
       note =             {GAP package},
