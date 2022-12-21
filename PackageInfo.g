@@ -10,9 +10,9 @@ SetPackageInfo( rec(
 
 PackageName := "IntrinsicCategories",
 Subtitle := "Intrinsic categories for CAP",
-Version := "2022.11-02",
-Date := "25/11/2022",
-Date := "25/11/2022",
+Version := "2022.12-01",
+Date := "21/12/2022",
+Date := "21/12/2022",
 License := "GPL-2.0-or-later",
 
 Persons := [
